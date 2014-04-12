@@ -1,0 +1,12 @@
+{
+  "generator-famous": {
+    "projectName": "Zephyware",
+    "projectDesc": "Portfolio for our web development company",
+    "authorLogin": "DennyScott",
+    "author": {
+      "name": "Denny Scott",
+      "email": "dennyscott301@gmail.com"
+    },
+    "noTinfoil": true
+  }
+}

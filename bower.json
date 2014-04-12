@@ -1,0 +1,35 @@
+{
+  "name": "zephyware",
+  "description": "Portfolio for our web development company.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/DennyScott/zephyware",
+  "authors": [{
+    "name": "Denny Scott",
+    "url": "http://github.com/DennyScott/"
+  }],
+  "main": "app/index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "famo.us"
+  ],
+  "license": "MPL 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "almond": "~0.2.9",
+    "famous": "git+https://github.com/Famous/famous.git#flat0.1.1",
+    "famous-polyfills": "git+https://github.com/Famous/polyfills.git#0.1.1"
+  },
+  "scripts": {
+    "postinstall": "grunt bower"
+  }
+}
